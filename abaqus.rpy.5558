@@ -1,0 +1,223 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2018 replay file
+# Internal Version: 2017_11_07-11.21.41 127140
+# Run by pwalgren58 on Fri Sep 11 15:30:56 2020
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(1.32552, 1.32407), width=195.117, 
+    height=131.348)
+session.viewports['Viewport: 1'].makeCurrent()
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+execfile('AssemblyModifyEdit.py', __main__.__dict__)
+#: A new model database has been created.
+#: The model "Model-1" has been created.
+session.viewports['Viewport: 1'].setValues(displayedObject=None)
+#: The model database "C:\temp\Cross Optimization\Cross Assembly\Open and Modify\assembly.cae" has been opened.
+session.viewports['Viewport: 1'].setValues(displayedObject=None)
+#: [[ 0.3289273  0.5943838]
+#:  [ 0.4434403  0.360756 ]
+#:  [ 0.3315124  1.1249056]
+#:  [ 0.5477508  1.3717555]
+#:  [ 0.3264038  0.4803743]
+#:  [ 0.4736033  1.217485 ]
+#:  [ 0.339309   0.8191766]
+#:  [ 0.5278239  0.9591382]
+#:  [ 0.3319772  0.8365027]
+#:  [ 0.3859675  0.669126 ]
+#:  [ 0.3641751  1.0475034]
+#:  [ 0.4311553  0.8471769]
+#:  [ 0.4408643  0.8727414]
+#:  [ 0.3956184  1.411969 ]
+#:  [ 0.3955393  0.8931322]]
+#: [Cross-1_Z1 Cross-3_Z3 Cross-2_Z2 Cross-4_Z4 Cross-1_Z1 Cross-4_Z4
+#:  Cross-1_Z1 Cross-3_Z3 Cross-1_Z1 Cross-1_Z1 Cross-2_Z2 Cross-3_Z3
+#:  Cross-3_Z3 Cross-2_Z2 Cross-1_Z1]
+#: Warning: The nodes and/or elements in the following part instances will
+#: be renumbered due to label conflicts with other part instances.
+#: 
+#:     Cross-3_Z3_1
+#:     Cross-2_Z2_1
+#:     Cross-4_Z4_1
+#:     Cross-1_Z1_2
+#:     Cross-4_Z4_2
+#:     Cross-1_Z1_3
+#:     Cross-3_Z3_2
+#:     Cross-1_Z1_4
+#:     Cross-1_Z1_5
+#:     Cross-2_Z2_2
+#:     Cross-3_Z3_3
+#:     Cross-3_Z3_4
+#:     Cross-2_Z2_3
+#:     Cross-1_Z1_6
+#: 
+#: in post processing script
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/X_DISP.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     2
+#: Number of Meshes:             2
+#: Number of Element Sets:       16
+#: Number of Node Sets:          68
+#: Number of Steps:              1
+#: found RP-2 node set
+#: closed odb
+#: Warning: The nodes and/or elements in the following part instances will
+#: be renumbered due to label conflicts with other part instances.
+#: 
+#:     Cross-3_Z3_1
+#:     Cross-2_Z2_1
+#:     Cross-4_Z4_1
+#:     Cross-1_Z1_2
+#:     Cross-4_Z4_2
+#:     Cross-1_Z1_3
+#:     Cross-3_Z3_2
+#:     Cross-1_Z1_4
+#:     Cross-1_Z1_5
+#:     Cross-2_Z2_2
+#:     Cross-3_Z3_3
+#:     Cross-3_Z3_4
+#:     Cross-2_Z2_3
+#:     Cross-1_Z1_6
+#: 
+#: in post processing script
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     2
+#: Number of Meshes:             2
+#: Number of Element Sets:       16
+#: Number of Node Sets:          68
+#: Number of Steps:              1
+#: found RP-2 node set
+#: calculated performance metric
+#: closed odb
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_1.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_2.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_3.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_4.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_5.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_6.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_7.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_8.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_9.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_10.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_11.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_12.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_13.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_14.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: Model: C:/temp/Cross Optimization/Cross Assembly/Open and Modify/ROT_15.odb
+#: Number of Assemblies:         1
+#: Number of Assembly instances: 0
+#: Number of Part instances:     1
+#: Number of Meshes:             1
+#: Number of Element Sets:       8
+#: Number of Node Sets:          8
+#: Number of Steps:              1
+#: 38.0240728722 seconds process time
+print 'RT script done'
+#: RT script done

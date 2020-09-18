@@ -1,0 +1,1572 @@
+
+OdbCombine log 		: Combined_ROT.txt
+
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_1.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_2.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_3.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_4.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_5.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_6.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_7.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_8.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_9.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_10.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_11.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_12.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_13.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_14.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+Filters applied for 'C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_15.odb' are 'Steps=LAST' 'Frames=LAST' 'Vars=ALL'.
+
+Resultant odb ...
+Odb name     : Combined_ROT.odb
+analysisTitle: 
+description  : Odb combine
+
+
+Master odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'SURFACE-1_RIGIDBODY' copied to set 'SURFACE-1_RIGIDBODY_ROT_odb' successfully.
+      Set 'ASSEMBLY-1_PART-1-1_SURFACE-1_RIGIDBODY' copied to set 'ASSEMBLY-1_PART-1-1_SURFACE-1_RIGIDBODY_ROT_odb' successfully.
+      Set 'BOTTOMBCNODES' copied to set 'BOTTOMBCNODES_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_1_BOTTOM' copied to set 'CROSS-1_Z1_1_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_1_LEFT' copied to set 'CROSS-1_Z1_1_LEFT_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_1_RIGHT' copied to set 'CROSS-1_Z1_1_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_1_TOP' copied to set 'CROSS-1_Z1_1_TOP_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_2_BOTTOM' copied to set 'CROSS-1_Z1_2_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_2_LEFT' copied to set 'CROSS-1_Z1_2_LEFT_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_2_RIGHT' copied to set 'CROSS-1_Z1_2_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_2_TOP' copied to set 'CROSS-1_Z1_2_TOP_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_3_BOTTOM' copied to set 'CROSS-1_Z1_3_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_3_LEFT' copied to set 'CROSS-1_Z1_3_LEFT_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_3_RIGHT' copied to set 'CROSS-1_Z1_3_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_3_TOP' copied to set 'CROSS-1_Z1_3_TOP_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_4_BOTTOM' copied to set 'CROSS-1_Z1_4_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_4_LEFT' copied to set 'CROSS-1_Z1_4_LEFT_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_4_RIGHT' copied to set 'CROSS-1_Z1_4_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_4_TOP' copied to set 'CROSS-1_Z1_4_TOP_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_1_BOTTOM' copied to set 'CROSS-2_Z2_1_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_1_LEFT' copied to set 'CROSS-2_Z2_1_LEFT_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_1_RIGHT' copied to set 'CROSS-2_Z2_1_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_1_TOP' copied to set 'CROSS-2_Z2_1_TOP_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_2_BOTTOM' copied to set 'CROSS-2_Z2_2_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_2_LEFT' copied to set 'CROSS-2_Z2_2_LEFT_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_2_RIGHT' copied to set 'CROSS-2_Z2_2_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_2_TOP' copied to set 'CROSS-2_Z2_2_TOP_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_3_BOTTOM' copied to set 'CROSS-2_Z2_3_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_3_LEFT' copied to set 'CROSS-2_Z2_3_LEFT_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_3_RIGHT' copied to set 'CROSS-2_Z2_3_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_3_TOP' copied to set 'CROSS-2_Z2_3_TOP_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_4_BOTTOM' copied to set 'CROSS-2_Z2_4_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_4_LEFT' copied to set 'CROSS-2_Z2_4_LEFT_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_4_RIGHT' copied to set 'CROSS-2_Z2_4_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_4_TOP' copied to set 'CROSS-2_Z2_4_TOP_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_5_BOTTOM' copied to set 'CROSS-2_Z2_5_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_5_LEFT' copied to set 'CROSS-2_Z2_5_LEFT_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_5_RIGHT' copied to set 'CROSS-2_Z2_5_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_5_TOP' copied to set 'CROSS-2_Z2_5_TOP_ROT_odb' successfully.
+      Set 'CROSS-3_Z3_1_BOTTOM' copied to set 'CROSS-3_Z3_1_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-3_Z3_1_LEFT' copied to set 'CROSS-3_Z3_1_LEFT_ROT_odb' successfully.
+      Set 'CROSS-3_Z3_1_RIGHT' copied to set 'CROSS-3_Z3_1_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-3_Z3_1_TOP' copied to set 'CROSS-3_Z3_1_TOP_ROT_odb' successfully.
+      Set 'CROSS-3_Z3_2_BOTTOM' copied to set 'CROSS-3_Z3_2_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-3_Z3_2_LEFT' copied to set 'CROSS-3_Z3_2_LEFT_ROT_odb' successfully.
+      Set 'CROSS-3_Z3_2_RIGHT' copied to set 'CROSS-3_Z3_2_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-3_Z3_2_TOP' copied to set 'CROSS-3_Z3_2_TOP_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_1_BOTTOM' copied to set 'CROSS-4_Z4_1_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_1_LEFT' copied to set 'CROSS-4_Z4_1_LEFT_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_1_RIGHT' copied to set 'CROSS-4_Z4_1_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_1_TOP' copied to set 'CROSS-4_Z4_1_TOP_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_2_BOTTOM' copied to set 'CROSS-4_Z4_2_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_2_LEFT' copied to set 'CROSS-4_Z4_2_LEFT_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_2_RIGHT' copied to set 'CROSS-4_Z4_2_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_2_TOP' copied to set 'CROSS-4_Z4_2_TOP_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_3_BOTTOM' copied to set 'CROSS-4_Z4_3_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_3_LEFT' copied to set 'CROSS-4_Z4_3_LEFT_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_3_RIGHT' copied to set 'CROSS-4_Z4_3_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_3_TOP' copied to set 'CROSS-4_Z4_3_TOP_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_4_BOTTOM' copied to set 'CROSS-4_Z4_4_BOTTOM_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_4_LEFT' copied to set 'CROSS-4_Z4_4_LEFT_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_4_RIGHT' copied to set 'CROSS-4_Z4_4_RIGHT_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_4_TOP' copied to set 'CROSS-4_Z4_4_TOP_ROT_odb' successfully.
+      Set 'TOPBCNODES' copied to set 'TOPBCNODES_ROT_odb' successfully.
+      Set 'TOP_RP' copied to set 'TOP_RP_ROT_odb' successfully.
+      Set '_PICKEDSET156' copied to set '_PICKEDSET156_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_1__CROSS-1_Z1_ELSET' copied to set 'CROSS-1_Z1_1__CROSS-1_Z1_ELSET_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_2__CROSS-1_Z1_ELSET' copied to set 'CROSS-1_Z1_2__CROSS-1_Z1_ELSET_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_3__CROSS-1_Z1_ELSET' copied to set 'CROSS-1_Z1_3__CROSS-1_Z1_ELSET_ROT_odb' successfully.
+      Set 'CROSS-1_Z1_4__CROSS-1_Z1_ELSET' copied to set 'CROSS-1_Z1_4__CROSS-1_Z1_ELSET_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_1__CROSS-2_Z2_ELSET' copied to set 'CROSS-2_Z2_1__CROSS-2_Z2_ELSET_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_2__CROSS-2_Z2_ELSET' copied to set 'CROSS-2_Z2_2__CROSS-2_Z2_ELSET_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_3__CROSS-2_Z2_ELSET' copied to set 'CROSS-2_Z2_3__CROSS-2_Z2_ELSET_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_4__CROSS-2_Z2_ELSET' copied to set 'CROSS-2_Z2_4__CROSS-2_Z2_ELSET_ROT_odb' successfully.
+      Set 'CROSS-2_Z2_5__CROSS-2_Z2_ELSET' copied to set 'CROSS-2_Z2_5__CROSS-2_Z2_ELSET_ROT_odb' successfully.
+      Set 'CROSS-3_Z3_1__CROSS-3_Z3_ELSET' copied to set 'CROSS-3_Z3_1__CROSS-3_Z3_ELSET_ROT_odb' successfully.
+      Set 'CROSS-3_Z3_2__CROSS-3_Z3_ELSET' copied to set 'CROSS-3_Z3_2__CROSS-3_Z3_ELSET_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_1__CROSS-4_Z4_ELSET' copied to set 'CROSS-4_Z4_1__CROSS-4_Z4_ELSET_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_2__CROSS-4_Z4_ELSET' copied to set 'CROSS-4_Z4_2__CROSS-4_Z4_ELSET_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_3__CROSS-4_Z4_ELSET' copied to set 'CROSS-4_Z4_3__CROSS-4_Z4_ELSET_ROT_odb' successfully.
+      Set 'CROSS-4_Z4_4__CROSS-4_Z4_ELSET' copied to set 'CROSS-4_Z4_4__CROSS-4_Z4_ELSET_ROT_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_odb'
+       Warning:  Instance 'SURFACE-1_RIGIDBODY' contains an Analytical Rigid Surface. It will not be copied.
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set 'CROSS-1_Z1_1_BOTTOM_CNS_' copied to set 'CROSS-1_Z1_1_BOTTOM_CNS__ROT_odb' successfully.
+       Set 'CROSS-1_Z1_1_RIGHT_CNS_' copied to set 'CROSS-1_Z1_1_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-1_Z1_1_TOP_CNS_' copied to set 'CROSS-1_Z1_1_TOP_CNS__ROT_odb' successfully.
+       Set 'CROSS-1_Z1_2_LEFT_CNS_' copied to set 'CROSS-1_Z1_2_LEFT_CNS__ROT_odb' successfully.
+       Set 'CROSS-1_Z1_2_RIGHT_CNS_' copied to set 'CROSS-1_Z1_2_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-1_Z1_2_TOP_CNS_' copied to set 'CROSS-1_Z1_2_TOP_CNS__ROT_odb' successfully.
+       Set 'CROSS-1_Z1_3_LEFT_CNS_' copied to set 'CROSS-1_Z1_3_LEFT_CNS__ROT_odb' successfully.
+       Set 'CROSS-1_Z1_3_TOP_CNS_' copied to set 'CROSS-1_Z1_3_TOP_CNS__ROT_odb' successfully.
+       Set 'CROSS-1_Z1_4_BOTTOM_CNS_' copied to set 'CROSS-1_Z1_4_BOTTOM_CNS__ROT_odb' successfully.
+       Set 'CROSS-1_Z1_4_LEFT_CNS_' copied to set 'CROSS-1_Z1_4_LEFT_CNS__ROT_odb' successfully.
+       Set 'CROSS-1_Z1_4_TOP_CNS_' copied to set 'CROSS-1_Z1_4_TOP_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_1_RIGHT_CNS_' copied to set 'CROSS-2_Z2_1_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_1_TOP_CNS_' copied to set 'CROSS-2_Z2_1_TOP_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_2_BOTTOM_CNS_' copied to set 'CROSS-2_Z2_2_BOTTOM_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_2_RIGHT_CNS_' copied to set 'CROSS-2_Z2_2_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_3_BOTTOM_CNS_' copied to set 'CROSS-2_Z2_3_BOTTOM_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_3_LEFT_CNS_' copied to set 'CROSS-2_Z2_3_LEFT_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_3_RIGHT_CNS_' copied to set 'CROSS-2_Z2_3_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_3_TOP_CNS_' copied to set 'CROSS-2_Z2_3_TOP_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_4_LEFT_CNS_' copied to set 'CROSS-2_Z2_4_LEFT_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_4_RIGHT_CNS_' copied to set 'CROSS-2_Z2_4_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_4_TOP_CNS_' copied to set 'CROSS-2_Z2_4_TOP_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_5_BOTTOM_CNS_' copied to set 'CROSS-2_Z2_5_BOTTOM_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_5_LEFT_CNS_' copied to set 'CROSS-2_Z2_5_LEFT_CNS__ROT_odb' successfully.
+       Set 'CROSS-2_Z2_5_RIGHT_CNS_' copied to set 'CROSS-2_Z2_5_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-3_Z3_1_LEFT_CNS_' copied to set 'CROSS-3_Z3_1_LEFT_CNS__ROT_odb' successfully.
+       Set 'CROSS-3_Z3_1_RIGHT_CNS_' copied to set 'CROSS-3_Z3_1_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-3_Z3_1_TOP_CNS_' copied to set 'CROSS-3_Z3_1_TOP_CNS__ROT_odb' successfully.
+       Set 'CROSS-3_Z3_2_BOTTOM_CNS_' copied to set 'CROSS-3_Z3_2_BOTTOM_CNS__ROT_odb' successfully.
+       Set 'CROSS-3_Z3_2_LEFT_CNS_' copied to set 'CROSS-3_Z3_2_LEFT_CNS__ROT_odb' successfully.
+       Set 'CROSS-3_Z3_2_RIGHT_CNS_' copied to set 'CROSS-3_Z3_2_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_1_BOTTOM_CNS_' copied to set 'CROSS-4_Z4_1_BOTTOM_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_1_LEFT_CNS_' copied to set 'CROSS-4_Z4_1_LEFT_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_1_RIGHT_CNS_' copied to set 'CROSS-4_Z4_1_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_1_TOP_CNS_' copied to set 'CROSS-4_Z4_1_TOP_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_2_BOTTOM_CNS_' copied to set 'CROSS-4_Z4_2_BOTTOM_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_2_LEFT_CNS_' copied to set 'CROSS-4_Z4_2_LEFT_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_2_RIGHT_CNS_' copied to set 'CROSS-4_Z4_2_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_3_BOTTOM_CNS_' copied to set 'CROSS-4_Z4_3_BOTTOM_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_3_LEFT_CNS_' copied to set 'CROSS-4_Z4_3_LEFT_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_3_RIGHT_CNS_' copied to set 'CROSS-4_Z4_3_RIGHT_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_3_TOP_CNS_' copied to set 'CROSS-4_Z4_3_TOP_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_4_BOTTOM_CNS_' copied to set 'CROSS-4_Z4_4_BOTTOM_CNS__ROT_odb' successfully.
+       Set 'CROSS-4_Z4_4_LEFT_CNS_' copied to set 'CROSS-4_Z4_4_LEFT_CNS__ROT_odb' successfully.
+       Set 'TOPBCNODES_CNS_' copied to set 'TOPBCNODES_CNS__ROT_odb' successfully.
+       Set 'Rigid Reference Node #1' copied to set 'Rigid Reference Node #1_ROT_odb' successfully.
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-7_CROSS-2_Z2_3_LEFT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-7_CROSS-2_Z2_3_LEFT_CNS__ROT_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-8_CROSS-4_Z4_2_BOTTOM_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-8_CROSS-4_Z4_2_BOTTOM_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-9_CROSS-3_Z3_1_RIGHT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-9_CROSS-3_Z3_1_RIGHT_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-10_CROSS-2_Z2_4_LEFT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-10_CROSS-2_Z2_4_LEFT_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-11_CROSS-2_Z2_3_BOTTOM_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-11_CROSS-2_Z2_3_BOTTOM_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-12_CROSS-4_Z4_2_RIGHT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-12_CROSS-4_Z4_2_RIGHT_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-13_CROSS-2_Z2_3_TOP_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-13_CROSS-2_Z2_3_TOP_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-14_CROSS-2_Z2_5_LEFT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-14_CROSS-2_Z2_5_LEFT_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-16_CROSS-2_Z2_4_TOP_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-16_CROSS-2_Z2_4_TOP_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-17_CROSS-1_Z1_4_LEFT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-17_CROSS-1_Z1_4_LEFT_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-18_CROSS-2_Z2_5_BOTTOM_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-18_CROSS-2_Z2_5_BOTTOM_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-19_CROSS-2_Z2_4_RIGHT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-19_CROSS-2_Z2_4_RIGHT_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-20_CROSS-1_Z1_4_BOTTOM_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-20_CROSS-1_Z1_4_BOTTOM_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-21_CROSS-2_Z2_5_RIGHT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-21_CROSS-2_Z2_5_RIGHT_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-22_CROSS-1_Z1_4_TOP_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-22_CROSS-1_Z1_4_TOP_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_TIE_TOPBCNODES_CNS_' copied to set ' TIED_SLAVE_NODES_TIE_TOPBCNODES_CNS__ROT_odb' successfully.
+       Set 'WarnNodeSuperIncorrectCoords' copied to set 'WarnNodeSuperIncorrectCoords_ROT_odb' successfully.
+       Set ' ADJFREE' copied to set ' ADJFREE_ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-15_CROSS-2_Z2_3_RIGHT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-15_CROSS-2_Z2_3_RIGHT_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-1_CROSS-3_Z3_1_LEFT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-1_CROSS-3_Z3_1_LEFT_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-2_CROSS-1_Z1_1_BOTTOM_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-2_CROSS-1_Z1_1_BOTTOM_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-3_CROSS-1_Z1_1_TOP_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-3_CROSS-1_Z1_1_TOP_CNS__ROT_odb' successfully.
+       Set 'WarnNodeAdjust' copied to set 'WarnNodeAdjust_ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-4_CROSS-4_Z4_2_LEFT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-4_CROSS-4_Z4_2_LEFT_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-5_CROSS-1_Z1_1_RIGHT_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-5_CROSS-1_Z1_1_RIGHT_CNS__ROT_odb' successfully.
+       Set ' TIED_SLAVE_NODES_CONSTRAINT-6_CROSS-3_Z3_1_TOP_CNS_' copied to set ' TIED_SLAVE_NODES_CONSTRAINT-6_CROSS-3_Z3_1_TOP_CNS__ROT_odb' successfully.
+       Set ' BLANK #1' copied to set ' BLANK #1_ROT_odb' successfully.
+       Set 'Step    1 Disp dof  6' copied to set 'Step    1 Disp dof  6_ROT_odb' successfully.
+       Set 'Step    1 Type ENCASTRE' copied to set 'Step    1 Type ENCASTRE_ROT_odb' successfully.
+       Set 'REFERENCE_POINT_PART-1-1        1' copied to set 'REFERENCE_POINT_PART-1-1        1_ROT_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'U' copied successfully.
+       Variable 'RF' copied successfully.
+       Variable 'UR' copied successfully.
+       Variable 'RM' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_1.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_1_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_1_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_1_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_1_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_1_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_1_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_1_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_1_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_1_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_1_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_1_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_1_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_1_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_1_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_1_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_1_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_1_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_1_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_1_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_1_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_1_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_2.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_2_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_2_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_2_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_2_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_2_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_2_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_2_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_2_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_2_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_2_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_2_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_2_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_2_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_2_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_2_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_2_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_2_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_2_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_2_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_2_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_2_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_3.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_3_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_3_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_3_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_3_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_3_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_3_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_3_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_3_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_3_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_3_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_3_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_3_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_3_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_3_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_3_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_3_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_3_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_3_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_3_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_3_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_3_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_4.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_4_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_4_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_4_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_4_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_4_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_4_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_4_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_4_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_4_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_4_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_4_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_4_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_4_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_4_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_4_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_4_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_4_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_4_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_4_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_4_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_4_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_5.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_5_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_5_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_5_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_5_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_5_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_5_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_5_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_5_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_5_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_5_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_5_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_5_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_5_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_5_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_5_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_5_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_5_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_5_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_5_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_5_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_5_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_6.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_6_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_6_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_6_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_6_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_6_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_6_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_6_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_6_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_6_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_6_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_6_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_6_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_6_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_6_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_6_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_6_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_6_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_6_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_6_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_6_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_6_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_7.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_7_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_7_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_7_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_7_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_7_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_7_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_7_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_7_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_7_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_7_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_7_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_7_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_7_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_7_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_7_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_7_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_7_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_7_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_7_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_7_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_7_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_8.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_8_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_8_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_8_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_8_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_8_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_8_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_8_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_8_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_8_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_8_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_8_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_8_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_8_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_8_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_8_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_8_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_8_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_8_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_8_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_8_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_8_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_9.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_9_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_9_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_9_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_9_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_9_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_9_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_9_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_9_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_9_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_9_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_9_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_9_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_9_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_9_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_9_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_9_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_9_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_9_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_9_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_9_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_9_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_10.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_10_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_10_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_10_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_10_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_10_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_10_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_10_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_10_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_10_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_10_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_10_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_10_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_10_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_10_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_10_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_10_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_10_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_10_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_10_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_10_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_10_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_11.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_11_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_11_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_11_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_11_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_11_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_11_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_11_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_11_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_11_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_11_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_11_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_11_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_11_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_11_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_11_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_11_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_11_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_11_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_11_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_11_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_11_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_12.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_12_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_12_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_12_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_12_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_12_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_12_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_12_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_12_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_12_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_12_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_12_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_12_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_12_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_12_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_12_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_12_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_12_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_12_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_12_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_12_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_12_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_13.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_13_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_13_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_13_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_13_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_13_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_13_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_13_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_13_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_13_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_13_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_13_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_13_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_13_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_13_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_13_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_13_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_13_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_13_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_13_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_13_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_13_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_14.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_14_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_14_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_14_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_14_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_14_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_14_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_14_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_14_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_14_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_14_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_14_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_14_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_14_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_14_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_14_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_14_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_14_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_14_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_14_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_14_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_14_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+Input odb ...
+Odb name     : C:\temp\Cross Optimization\Cross Assembly\Open and Modify/ROT_15.odb
+analysisTitle: 
+description  : DDB object
+
+Copying model data ...
+
+  Copying instances ...
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_15_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_15_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_15_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_15_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_15_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_15_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_15_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_15_odb' successfully.
+      Set 'BOTTOM' copied to set 'BOTTOM_ROT_15_odb' successfully.
+      Set 'CROSS-1_SET-1' copied to set 'CROSS-1_SET-1_ROT_15_odb' successfully.
+      Set 'CROSS-1_SET-2' copied to set 'CROSS-1_SET-2_ROT_15_odb' successfully.
+      Set 'CROSS-1_SET-22' copied to set 'CROSS-1_SET-22_ROT_15_odb' successfully.
+      Set 'CROSS-1_SET-23' copied to set 'CROSS-1_SET-23_ROT_15_odb' successfully.
+      Set 'LEFT' copied to set 'LEFT_ROT_15_odb' successfully.
+      Set 'RIGHT' copied to set 'RIGHT_ROT_15_odb' successfully.
+      Set 'TOP' copied to set 'TOP_ROT_15_odb' successfully.
+    Instance 'PART-1-1' copied to instance 'PART-1-1_ROT_15_odb'
+  Instances Copied successfully.
+
+  Copying Assembly sets...
+       Set ' ALL ELEMENTS' copied to set ' ALL ELEMENTS_ROT_15_odb' successfully.
+       Set 'WarnElemDistorted' copied to set 'WarnElemDistorted_ROT_15_odb' successfully.
+       Set ' GRAVOK' copied to set ' GRAVOK_ROT_15_odb' successfully.
+       Set ' ALL NODES' copied to set ' ALL NODES_ROT_15_odb' successfully.
+  Assembly sets copied successfully.
+
+Model data copied successfully.
+
+
+Copying field output ...
+
+  Copying step 'Step-1'...
+    Copying frame '1'...
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'ORIENT' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'E' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'S' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'SENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'PENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'CENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'VENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'EENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'JENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'DMENER' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'EASEDEN' copied successfully.
+       Variable 'U' copied successfully.
+       Variable 'UR' copied successfully.
+    Frame copied successfully.
+  Step copied successfully.
+
+Field output copied successfully.
+
+
+
+
+Odb combine completed successfully.
+
+

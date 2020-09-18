@@ -1,0 +1,63 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-1_Z1', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-1.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-1_Z1.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-2_Z2', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-2.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-2_Z2.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-3_Z3', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-3.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-3_Z3.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-4_Z4', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-4.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-4_Z4.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-5_Z5', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-5.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-5_Z5.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-6_Z6', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-6.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-6_Z6.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-7_Z7', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-7.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-7_Z7.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-8_Z8', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-8.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-8_Z8.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-9_Z9', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-9.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-9_Z9.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-10_Z10', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-10.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-10_Z10.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-11_Z11', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-11.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-11_Z11.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-12_Z12', odbFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-12.odb'
+    , substructureFile=
+    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-12_Z12.sim')
+# Save by pwalgren58 on 2020_09_03-14.50.21; build 2018 2017_11_07-11.21.41 127140
