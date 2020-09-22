@@ -1,7 +1,7 @@
 '''
 Substructure Script: Assembly and Analysis - Open and Modify Version
 
-Last updated: 9/9/2020 by Patrick Walgren 
+Last updated: 9/22/2020 by Patrick Walgren 
 
 This script populates already imported substructures to fill a [n x m] rectangle with 
 arbitrary structures (e.g., four circles and 6 sinusoids, all with different
@@ -239,6 +239,9 @@ def instanceAssembly(modelData,newSubstructures):
     # Construct Assembly 
     a = mdb.models[modelName].rootAssembly
     a.DatumCsysByDefault(CARTESIAN) 
+    dim = modelData['dim']
+    xLength = dim[3] - dim[0]
+    yLength = dim[4] - dim[1]
     
     n = 0
     
@@ -246,9 +249,8 @@ def instanceAssembly(modelData,newSubstructures):
     
     for x in range(0,assemblyDim[0]):
         for y in range(0,assemblyDim[1]):
-            ### Change harcode 20.0 to scaling assembly value
-            xMove = 20.0*(x)
-            yMove = 20.0*(y)
+            xMove = xLength*(x)
+            yMove = yLength*(y)
             # index = randint(0,len(partList)-1)
             partName = str(newSubstructures[n])
 
@@ -314,7 +316,7 @@ def AssemblyConnectivity(assemblyDim):
 
     return NOD
 
-def BoundarySets(modelData,instanceNames,dim):
+def BoundarySets(modelData,instanceNames):
     '''
     Create sets for each substructure boundary for ease of boundary condition
     application later. Boolean operations are applied to the corner nodes, as
@@ -329,11 +331,12 @@ def BoundarySets(modelData,instanceNames,dim):
             'modelName':'Model-1',
             'stepName':'Step-1',
             'assemblyDim':assemblyDim,
-            'dim':dim}
+            'dim':dim}    
+            dim : LIST
+                Overall model geometric parameters 
+                dim = [minX,minY,minZ,maxX,maxY,maxZ]
     instanceNames : LIST
         List of all instances in the assembly.
-    dim : LIST
-        #[minX,minY,minZ,maxX,maxY,maxZ]
 
     Returns
     -------
@@ -343,11 +346,15 @@ def BoundarySets(modelData,instanceNames,dim):
     #Data unpackaging 
     modelName = modelData['modelName']
     assemblyDim = modelData['assemblyDim']
+    dim = modelData['dim']
+    xLength = dim[3] - dim[0]
+    yLength = dim[4] - dim[1]
+    
     j=0
     for x in range(0,assemblyDim[0]):
         for y in range(0,(assemblyDim[1])):
             instance = instanceNames[j]
-            center = [20.0*x,20.0*y,0.0]
+            center = [xLength*x,yLength*y,0.0]
             # dim =  [minX,minY,minZ,maxX,maxY,maxZ]
             xMin = center[0]+dim[0]
             yMin = center[1]+dim[1]
@@ -1061,7 +1068,7 @@ def runAssembly():
     NOD = AssemblyConnectivity(assemblyDim=assemblyDim)
 
     # Create geometry sets for each substructure edge 
-    BoundarySets(modelData,instanceNames=instanceNames,dim=dim)
+    BoundarySets(modelData,instanceNames=instanceNames)
 
     # Tie all instances together
     TieInstances(modelData,instanceNames=instanceNames,NOD=NOD)
