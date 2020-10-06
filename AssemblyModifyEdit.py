@@ -43,8 +43,10 @@ from caeModules import *
 from math import *
 from random import randint
 import numpy as np
+from numpy import genfromtxt
 import time 
 import os
+import sys
 import pickle 
 
 from Post_P import odbPostProcess
@@ -82,10 +84,17 @@ def importSubstructure(modelData,geometryName,allSubInfo,numOfVars,numOfAtt,path
     '''
     #Data Unpackaging
     
-    substructureRef = {0:'Cross'}
+    substructureRef = {0:'CrossAsymmetric', 1:'Cross'}
     materialRef = {0:'Aluminum 2219',1:'Kovar Steel',2:'Titanium Alpha-Beta'}
     
-    fpath = geometryName+'_SubstructureInfo.txt'
+	# Hardcoded to Titanium Alpha-Beta file only (2), will need to change data transfer in substructure generation
+    fpath = geometryName+'DataPoints-'+materialRef[2]+'.csv'
+	
+	# Header line is 6 in the current CSV
+	headers = genfromtxt(fpath, delimeter=',', dtype='None', skip_header=5, skip_footer=7)
+	
+	data = 
+	
     substructureInfo = np.loadtxt(fpath)
     np.transpose(substructureInfo)
     substructureInfo = np.transpose(substructureInfo)
@@ -1004,7 +1013,7 @@ def runAssembly():
     visualizationFlag = 0 #Flag for combining odbs or not. 
     # 0 = don't combine for computational efficiency (~15% faster)
     # 1 = combine to visualize entire assembly results 
-    dim = [-10.0, -10.0, 0.0, 10.0, 10.0, 5.0] #[minX,minY,minZ,maxX,maxY,maxZ]
+    dim = [-0.005, -0.005, 0.0, 0.005, 0.005, 0.0025] #[minX,minY,minZ,maxX,maxY,maxZ]
     assemblyDim = [5,3] #[Number of substructures to instance in x-direction,
 
         # Line to save findAts instead of masks
@@ -1048,6 +1057,9 @@ def runAssembly():
         
     ### Could save at this point to avoid importing substructures each run
     # pickle.dump( partsInfo, open( "partsInfo.p", "wb" ) )
+
+	# Stop execution of code to change partsInfo.p
+	sys.exit()
 
     Mdb()
     openMdb('assembly.cae')
