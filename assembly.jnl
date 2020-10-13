@@ -61,3 +61,4 @@ mdb.models['Model-1'].PartFromSubstructure(name='Cross-12_Z12', odbFile=
     , substructureFile=
     'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-12_Z12.sim')
 # Save by pwalgren58 on 2020_09_03-14.50.21; build 2018 2017_11_07-11.21.41 127140
+# Save by sebastian.chirinos on 2020_10_10-09.35.28; build 2018 2017_11_07-11.21.41 127140

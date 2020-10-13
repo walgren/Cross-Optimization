@@ -209,7 +209,7 @@ def run_abaqus():
                                             increment_time = increment_time)
     # If job is killed or if it did not converge, dummy outputs are generated
     if terminated:
-        outputs = [1.0,-1.0E10,-1.0E10]
+        outputs = [1.0E10,-1.0E10,-1.0E10]
         fData=open('AssemblyOutput.txt', "a")
         fData.write(str(outputs[0])+','+str(-1.0)+','+str(outputs[1])+','+str(-1.0)+','+str(outputs[2])+'\n') #mass is sent in as negative to minimize in optimizer
         fData.close()
@@ -217,7 +217,7 @@ def run_abaqus():
         try:
             outputs = pickle.load( open( output_file, "rb" ),encoding='latin1' ) #latin1 encoding needed for translation between python 3.X and 2.X
         except:
-            outputs = [1.0,-1.0E10,-1.0E10] 
+            outputs = [1.0E10,-1.0E10,-1.0E10] 
             fData=open('AssemblyOutput.txt', "a")
             fData.write(str(outputs[0])+','+str(-1.0)+','+str(outputs[1])+','+str(-1.0)+','+str(outputs[2])+'\n') #mass is sent in as negative to minimize in optimizer
             fData.close()

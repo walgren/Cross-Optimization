@@ -20,8 +20,10 @@ assemblyOutSize = assemblyOutFile.bytes;
 % end
 formatSpec = "\r\n%i;";
 
-numOfSubstructures = 15; %Manually input for number of iterations
-numOfVars = 2;% same
+% CHANGE VALUES BELOW ##############
+
+numOfSubstructures = 64; %Manually input for number of iterations
+numOfVars = 3;% same
 
 plotfn = @(options,state,flag)gaplotpareto(options,state,flag,[1 2 3]);
 plotfn2 = @(options,state,flag)gaplotpareto(options,state,flag,[1 2]);
