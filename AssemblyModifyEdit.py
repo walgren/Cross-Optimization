@@ -145,6 +145,7 @@ def importSubstructure(modelData,geometryName,allSubInfo,nSubs,nVars,nAtt,pathNa
 	for lenList in range(len(add[0])):
 		partName = add[0][lenList]+'-'+str(add[1][lenList])+'_Z'+str(add[1][lenList])
 		jobName = add[0][lenList]+'-'+str(add[1][lenList])+'.odb'
+		print('Made it to instance '+str(lenList))
 		substructureName=add[0][lenList]+'-'+str(add[1][lenList])+'_Z'+str(add[1][lenList])+'.sim'
 		substructureFileName=pathName+substructureName
 		odbName=pathName+jobName
@@ -152,7 +153,10 @@ def importSubstructure(modelData,geometryName,allSubInfo,nSubs,nVars,nAtt,pathNa
 		mdb.models[modelName].PartFromSubstructure(name=partName, substructureFile=substructureFileName,odbFile=odbName)
    ####
 	
+	print('allSubInfo size: '+str(len(allSubInfo)))
+	
 	for row in range(6):
+		print(row)
 		allSubInfo[row].extend(add[row])
 	
 	return allSubInfo
@@ -190,9 +194,9 @@ def nearestMatch(desiredAttributes, partsInfo, desiredComp, partsInfoIndex): #ho
 	# Break up desiredAttributes into list of lists, each index having the attributes of a single substructure
 	dAttOrig = np.reshape(desiredAttributes,(int(len(desiredAttributes)/desiredComp.size),desiredComp.size))
 	# map thick13 DV 
-	dAttOrig[:,0] = (thickMax-thickMin)*dAttOrig[:,0] + thicknessMin 
+	dAttOrig[:,0] = (thickMax-thickMin)*dAttOrig[:,0] + thickMin 
 	# map thick24 DV 
-	dAttOrig[:,1] = (thickMax-thickMin)*dAttOrig[:,1] + thicknessMin 
+	dAttOrig[:,1] = (thickMax-thickMin)*dAttOrig[:,1] + thickMin 
 	#map fillet DV
 	dAttOrig[:,2] = (filletMax-filletMin)*dAttOrig[:,2]+filletMin
 	print(dAttOrig)
@@ -253,9 +257,9 @@ def instanceAssembly(modelData,newSubstructures):
 	
 	Example assembly order:
 	 ___________
-	|1	  |3   |5	 |
+	|1	   |3    |5	 |	
 	|___|___|___|
-	|0	   |2	  |4	|
+	|0	   |2	  |4	 |
 	|___|___|___|
 
 	Returns
@@ -283,7 +287,9 @@ def instanceAssembly(modelData,newSubstructures):
 			yMove = yLength*(y)
 			# index = randint(0,len(partList)-1)
 			partName = str(newSubstructures[n])
-
+			
+			print(partName)
+			
 			p = mdb.models[modelName].parts[partName]
 			a = mdb.models[modelName].rootAssembly
 			repeatChecker = filter(lambda x:partName in x,instanceNames)
@@ -1045,7 +1051,7 @@ def runAssembly():
 	substructureNames = np.array(['CrossAsymmetric'])
 
 	instanceNames = []
-	partsInfo = [[],[],[],[],[]]
+	partsInfo = [[],[],[],[],[],[]]
 
 	modelData = {
 		'modelName':'Model-1',
@@ -1072,22 +1078,20 @@ def runAssembly():
 		# shutil.move(repositoryFolder+file, 
 			# assemblyFolder+file)
 	#  Need to change nSubs to get value from updated CSV file headers
-	partsInfo = importSubstructure(modelData=modelData,geometryName=substructureNames[0],
-		 allSubInfo=partsInfo,nSubs=64,nVars=3,nAtt=4,pathName=path)
+	# partsInfo = importSubstructure(modelData=modelData,geometryName=substructureNames[0],
+		 # allSubInfo=partsInfo,nSubs=64,nVars=3,nAtt=4,pathName=path)
 
-	for arr in range(len(partsInfo)): #Changing lists of lists to Array of lists
-		 partsInfo[arr] = np.array(partsInfo[arr])
+	# for arr in range(len(partsInfo)): #Changing lists of lists to Array of lists
+		 # partsInfo[arr] = np.array(partsInfo[arr])
 		
-	### Could save at this point to avoid importing substructures each run
-	pickle.dump( partsInfo, open( "partsInfo.p", "wb" ) )
+	## Could save at this point to avoid importing substructures each run
+	# pickle.dump( partsInfo, open( "partsInfo.p", "wb" ) )
 	
 	# Save cae at this point
 	# mdb.save()
 
 	# Stop execution of code to change partsInfo.p
-	sys.exit()
-
-	BREAK
+	# sys.exit()
 
 	Mdb()
 	openMdb('assembly.cae')
@@ -1099,7 +1103,7 @@ def runAssembly():
 	desiredAttributes = np.loadtxt('input.txt', dtype=float)
 
 	#Add function to take in design variables[3]/attribute metrics[4] from optimizer, return array with new substructures for assembly
-	newSubstructures, actDVs, actAMs, mass = nearestMatch(desiredAttributes, partsInfo, desiredComp=np.array([0,1]), partsInfoIndex=3)
+	newSubstructures, actDVs, actAMs, mass = nearestMatch(desiredAttributes, partsInfo, desiredComp=np.array([0,1,2]), partsInfoIndex=3)
 
 	# Instance substructures in the assembly
 	instanceNames = instanceAssembly(modelData,newSubstructures=newSubstructures)
@@ -1213,7 +1217,9 @@ def runAssembly():
 	
 
 	return
-	
+
+
+# Should change importing procedure and assembly procedure to 2 functions in future iterations
 runAssembly()
 
 # if __name__ == "__main__":
