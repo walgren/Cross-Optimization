@@ -1,4 +1,4 @@
-# -*- coding: mbcs -*-
+# Save by sebastian.chirinos on 2020_10_20-11.29.44; build 2018 2017_11_07-11.21.41 127140
 from part import *
 from material import *
 from section import *
@@ -13,52 +13,259 @@ from sketch import *
 from visualization import *
 from connectorBehavior import *
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-1_Z1', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-1.odb'
-    , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-1_Z1.sim')
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-1.odb', 
+    substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-1_Z1.sim')
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-2_Z2', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-2.odb'
-    , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-2_Z2.sim')
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-2.odb', 
+    substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-2_Z2.sim')
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-3_Z3', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-3.odb'
-    , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-3_Z3.sim')
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-3.odb', 
+    substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-3_Z3.sim')
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-4_Z4', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-4.odb'
-    , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-4_Z4.sim')
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-4.odb', 
+    substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-4_Z4.sim')
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-5_Z5', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-5.odb'
-    , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-5_Z5.sim')
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-5.odb', 
+    substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-5_Z5.sim')
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-6_Z6', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-6.odb'
-    , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-6_Z6.sim')
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-6.odb', 
+    substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-6_Z6.sim')
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-7_Z7', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-7.odb'
-    , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-7_Z7.sim')
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-7.odb', 
+    substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-7_Z7.sim')
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-8_Z8', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-8.odb'
-    , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-8_Z8.sim')
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-8.odb', 
+    substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-8_Z8.sim')
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-9_Z9', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-9.odb'
-    , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-9_Z9.sim')
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-9.odb', 
+    substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-9_Z9.sim')
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-10_Z10', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-10.odb'
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-10.odb'
     , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-10_Z10.sim')
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-10_Z10.sim')
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-11_Z11', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-11.odb'
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-11.odb'
     , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-11_Z11.sim')
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-11_Z11.sim')
 mdb.models['Model-1'].PartFromSubstructure(name='Cross-12_Z12', odbFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-12.odb'
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-12.odb'
     , substructureFile=
-    'C:\\temp\\Cross Optimization\\Cross Assembly\\Open and Modify/Cross-12_Z12.sim')
-# Save by pwalgren58 on 2020_09_03-14.50.21; build 2018 2017_11_07-11.21.41 127140
-# Save by sebastian.chirinos on 2020_10_10-09.35.28; build 2018 2017_11_07-11.21.41 127140
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-12_Z12.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-13_Z13', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-13.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-13_Z13.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-14_Z14', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-14.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-14_Z14.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-15_Z15', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-15.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-15_Z15.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-16_Z16', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-16.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-16_Z16.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-17_Z17', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-17.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-17_Z17.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-18_Z18', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-18.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-18_Z18.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-19_Z19', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-19.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-19_Z19.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-20_Z20', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-20.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-20_Z20.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-21_Z21', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-21.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-21_Z21.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-22_Z22', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-22.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-22_Z22.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-23_Z23', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-23.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-23_Z23.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-24_Z24', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-24.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-24_Z24.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-25_Z25', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-25.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-25_Z25.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-26_Z26', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-26.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-26_Z26.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-27_Z27', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-27.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-27_Z27.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-28_Z28', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-28.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-28_Z28.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-29_Z29', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-29.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-29_Z29.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-30_Z30', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-30.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-30_Z30.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-31_Z31', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-31.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-31_Z31.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-32_Z32', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-32.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-32_Z32.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-33_Z33', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-33.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-33_Z33.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-34_Z34', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-34.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-34_Z34.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-35_Z35', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-35.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-35_Z35.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-36_Z36', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-36.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-36_Z36.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-37_Z37', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-37.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-37_Z37.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-38_Z38', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-38.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-38_Z38.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-39_Z39', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-39.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-39_Z39.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-40_Z40', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-40.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-40_Z40.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-41_Z41', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-41.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-41_Z41.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-42_Z42', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-42.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-42_Z42.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-43_Z43', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-43.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-43_Z43.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-44_Z44', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-44.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-44_Z44.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-45_Z45', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-45.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-45_Z45.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-46_Z46', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-46.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-46_Z46.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-47_Z47', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-47.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-47_Z47.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-48_Z48', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-48.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-48_Z48.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-49_Z49', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-49.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-49_Z49.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-50_Z50', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-50.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-50_Z50.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-51_Z51', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-51.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-51_Z51.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-52_Z52', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-52.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-52_Z52.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-53_Z53', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-53.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-53_Z53.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-54_Z54', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-54.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-54_Z54.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-55_Z55', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-55.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-55_Z55.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-56_Z56', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-56.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-56_Z56.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-57_Z57', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-57.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-57_Z57.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-58_Z58', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-58.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-58_Z58.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-59_Z59', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-59.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-59_Z59.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-60_Z60', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-60.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-60_Z60.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-61_Z61', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-61.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-61_Z61.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-62_Z62', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-62.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-62_Z62.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-63_Z63', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-63.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-63_Z63.sim')
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-64_Z64', odbFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-64.odb'
+    , substructureFile=
+    'C:\\Users\\sebastian.chirinos\\MEEN 491H\\Cross-Optimization/Cross-64_Z64.sim')
+# Save by sebastian.chirinos on 2020_10_20-11.30.21; build 2018 2017_11_07-11.21.41 127140

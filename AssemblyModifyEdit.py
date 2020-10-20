@@ -288,7 +288,7 @@ def instanceAssembly(modelData,newSubstructures):
 			# index = randint(0,len(partList)-1)
 			partName = str(newSubstructures[n])
 			
-			print(partName)
+			print(str(partName))
 			
 			p = mdb.models[modelName].parts[partName]
 			a = mdb.models[modelName].rootAssembly
@@ -406,7 +406,7 @@ def BoundarySets(modelData,instanceNames):
 			bLC=[xMin,yMin,0.0]
 			bRC=[xMax,yMin,0.0]
 			
-			
+			print(tBB)
 			a = mdb.models[modelName].rootAssembly
 			n1=a.instances[instance].nodes
 			nodesTop=[]
@@ -1078,6 +1078,8 @@ def runAssembly():
 		# shutil.move(repositoryFolder+file, 
 			# assemblyFolder+file)
 	#  Need to change nSubs to get value from updated CSV file headers
+	# Mdb()
+	# openMdb('assembly.cae')
 	# partsInfo = importSubstructure(modelData=modelData,geometryName=substructureNames[0],
 		 # allSubInfo=partsInfo,nSubs=64,nVars=3,nAtt=4,pathName=path)
 

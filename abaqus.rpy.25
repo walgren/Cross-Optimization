@@ -1,0 +1,117 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2018 replay file
+# Internal Version: 2017_11_07-11.21.41 127140
+# Run by sebastian.chirinos on Tue Oct 20 11:30:09 2020
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=98.9899978637695, 
+    height=102.979995727539)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from caeModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=ON)
+execfile('AssemblyModifyEdit.py', __main__.__dict__)
+#: A new model database has been created.
+#: The model "Model-1" has been created.
+session.viewports['Viewport: 1'].setValues(displayedObject=None)
+#: The model database "C:\Users\sebastian.chirinos\MEEN 491H\Cross-Optimization\assembly.cae" has been opened.
+session.viewports['Viewport: 1'].setValues(displayedObject=None)
+#: 0
+#: 1
+#: 2
+#: 3
+#: 4
+#: 5
+#: 6
+#: 7
+#: 8
+#: 9
+#: 10
+#: 11
+#: 12
+#: Made it to instance 0
+#: Made it to instance 1
+#: Made it to instance 2
+#: Made it to instance 3
+#: Made it to instance 4
+#: Made it to instance 5
+#: Made it to instance 6
+#: Made it to instance 7
+#: Made it to instance 8
+#: Made it to instance 9
+#: Made it to instance 10
+#: Made it to instance 11
+#: Made it to instance 12
+#: Made it to instance 13
+#: Made it to instance 14
+#: Made it to instance 15
+#: Made it to instance 16
+#: Made it to instance 17
+#: Made it to instance 18
+#: Made it to instance 19
+#: Made it to instance 20
+#: Made it to instance 21
+#: Made it to instance 22
+#: Made it to instance 23
+#: Made it to instance 24
+#: Made it to instance 25
+#: Made it to instance 26
+#: Made it to instance 27
+#: Made it to instance 28
+#: Made it to instance 29
+#: Made it to instance 30
+#: Made it to instance 31
+#: Made it to instance 32
+#: Made it to instance 33
+#: Made it to instance 34
+#: Made it to instance 35
+#: Made it to instance 36
+#: Made it to instance 37
+#: Made it to instance 38
+#: Made it to instance 39
+#: Made it to instance 40
+#: Made it to instance 41
+#: Made it to instance 42
+#: Made it to instance 43
+#: Made it to instance 44
+#: Made it to instance 45
+#: Made it to instance 46
+#: Made it to instance 47
+#: Made it to instance 48
+#: Made it to instance 49
+#: Made it to instance 50
+#: Made it to instance 51
+#: Made it to instance 52
+#: Made it to instance 53
+#: Made it to instance 54
+#: Made it to instance 55
+#: Made it to instance 56
+#: Made it to instance 57
+#: Made it to instance 58
+#: Made it to instance 59
+#: Made it to instance 60
+#: Made it to instance 61
+#: Made it to instance 62
+#: Made it to instance 63
+#: allSubInfo size: 6
+#: 0
+#: 1
+#: 2
+#: 3
+#: 4
+#: 5
+#: The model database has been saved to "C:\Users\sebastian.chirinos\MEEN 491H\Cross-Optimization\assembly.cae".
+#* Exit code: 0
+#* File "AssemblyModifyEdit.py", line 1225, in <module>
+#*     runAssembly()
+#* File "AssemblyModifyEdit.py", line 1096, in runAssembly
+#*     sys.exit()

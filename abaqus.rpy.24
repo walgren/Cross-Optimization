@@ -1,0 +1,33 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2018 replay file
+# Internal Version: 2017_11_07-11.21.41 127140
+# Run by sebastian.chirinos on Tue Oct 20 11:29:07 2020
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=98.9899978637695, 
+    height=102.979995727539)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+from caeModules import *
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=ON)
+execfile('AssemblyModifyEdit.py', __main__.__dict__)
+#: A new model database has been created.
+#: The model "Model-1" has been created.
+session.viewports['Viewport: 1'].setValues(displayedObject=None)
+#* IOError: assembly.cae: No such file or directory
+#* File "AssemblyModifyEdit.py", line 1225, in <module>
+#*     runAssembly()
+#* File "AssemblyModifyEdit.py", line 1082, in runAssembly
+#*     openMdb('assembly.cae')
+mdb.saveAs(
+    pathName='C:/Users/sebastian.chirinos/MEEN 491H/Cross-Optimization/assembly')
+#: The model database has been saved to "C:\Users\sebastian.chirinos\MEEN 491H\Cross-Optimization\assembly.cae".

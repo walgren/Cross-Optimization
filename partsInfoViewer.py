@@ -7,5 +7,5 @@ Created on Fri Oct 16 14:22:05 2020
 
 import pickle
 
-partsInfo = pickle.load(open('partsInfo.p',"rb"))
+partsInfo = pickle.load( open( 'partsInfo.p', "rb" ),encoding='latin1')
 print(partsInfo)

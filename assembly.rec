@@ -13,3 +13,76 @@ from sketch import *
 from visualization import *
 from connectorBehavior import *
 mdb.models['Model-1'].rootAssembly.DatumCsysByDefault(CARTESIAN)
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-22_Z22_1'
+    , part=mdb.models['Model-1'].parts['Cross-22_Z22'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-22_Z22_1', ), 
+    vector=(0.0, 0.0, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-1_Z1_1', 
+    part=mdb.models['Model-1'].parts['Cross-1_Z1'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-1_Z1_1', ), 
+    vector=(0.0, 0.01, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-37_Z37_1'
+    , part=mdb.models['Model-1'].parts['Cross-37_Z37'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-37_Z37_1', ), 
+    vector=(0.0, 0.02, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-43_Z43_1'
+    , part=mdb.models['Model-1'].parts['Cross-43_Z43'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-43_Z43_1', ), 
+    vector=(0.01, 0.0, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-6_Z6_1', 
+    part=mdb.models['Model-1'].parts['Cross-6_Z6'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-6_Z6_1', ), 
+    vector=(0.01, 0.01, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-21_Z21_1'
+    , part=mdb.models['Model-1'].parts['Cross-21_Z21'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-21_Z21_1', ), 
+    vector=(0.01, 0.02, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-23_Z23_1'
+    , part=mdb.models['Model-1'].parts['Cross-23_Z23'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-23_Z23_1', ), 
+    vector=(0.02, 0.0, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-18_Z18_1'
+    , part=mdb.models['Model-1'].parts['Cross-18_Z18'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-18_Z18_1', ), 
+    vector=(0.02, 0.01, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-2_Z2_1', 
+    part=mdb.models['Model-1'].parts['Cross-2_Z2'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-2_Z2_1', ), 
+    vector=(0.02, 0.02, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-24_Z24_1'
+    , part=mdb.models['Model-1'].parts['Cross-24_Z24'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-24_Z24_1', ), 
+    vector=(0.03, 0.0, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-28_Z28_1'
+    , part=mdb.models['Model-1'].parts['Cross-28_Z28'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-28_Z28_1', ), 
+    vector=(0.03, 0.01, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-11_Z11_1'
+    , part=mdb.models['Model-1'].parts['Cross-11_Z11'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-11_Z11_1', ), 
+    vector=(0.03, 0.02, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-35_Z35_1'
+    , part=mdb.models['Model-1'].parts['Cross-35_Z35'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-35_Z35_1', ), 
+    vector=(0.04, 0.0, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-3_Z3_1', 
+    part=mdb.models['Model-1'].parts['Cross-3_Z3'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-3_Z3_1', ), 
+    vector=(0.04, 0.01, 0.0))
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Cross-20_Z20_1'
+    , part=mdb.models['Model-1'].parts['Cross-20_Z20'])
+mdb.models['Model-1'].rootAssembly.translate(instanceList=('Cross-20_Z20_1', ), 
+    vector=(0.04, 0.02, 0.0))
+mdb.models['Model-1'].rootAssembly.Set(name='Cross-22_Z22_1_Top', nodes=
+    [mdb.models['Model-1'].rootAssembly.instances['Cross-22_Z22_1'].nodes[0:0]])
+mdb.models['Model-1'].rootAssembly.Set(name='Cross-22_Z22_1_Bottom', nodes=
+    [mdb.models['Model-1'].rootAssembly.instances['Cross-22_Z22_1'].nodes[0:0]])
+mdb.models['Model-1'].rootAssembly.Set(name='Cross-22_Z22_1_Left', nodes=
+    [mdb.models['Model-1'].rootAssembly.instances['Cross-22_Z22_1'].nodes[0:0]])
+mdb.models['Model-1'].rootAssembly.Set(name='Cross-22_Z22_1_Right', nodes=
+    [mdb.models['Model-1'].rootAssembly.instances['Cross-22_Z22_1'].nodes[0:0]])
+mdb.models['Model-1'].rootAssembly.SetByBoolean(name='Cross-22_Z22_1_Top', 
+    operation=DIFFERENCE, sets=(
+    mdb.models['Model-1'].rootAssembly.sets['Cross-22_Z22_1_Top'], 
+    mdb.models['Model-1'].rootAssembly.sets['Cross-22_Z22_1_Left']))
+#* The boolean operation failed

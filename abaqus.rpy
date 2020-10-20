@@ -2,7 +2,7 @@
 #
 # Abaqus/CAE Release 2018 replay file
 # Internal Version: 2017_11_07-11.21.41 127140
-# Run by sebastian.chirinos on Mon Oct 19 11:30:29 2020
+# Run by sebastian.chirinos on Tue Oct 20 13:21:05 2020
 #
 
 # from driverUtils import executeOnCaeGraphicsStartup
@@ -11,7 +11,7 @@
 from abaqus import *
 from abaqusConstants import *
 session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=98.9899978637695, 
-    height=120.839996337891)
+    height=102.979995727539)
 session.viewports['Viewport: 1'].makeCurrent()
 session.viewports['Viewport: 1'].maximize()
 from caeModules import *
@@ -102,11 +102,47 @@ session.viewports['Viewport: 1'].setValues(displayedObject=None)
 #:  Cross-24_Z24 Cross-24_Z24 Cross-23_Z23 Cross-18_Z18 Cross-27_Z27
 #:  Cross-17_Z17 Cross-7_Z7 Cross-21_Z21 Cross-19_Z19 Cross-7_Z7 Cross-6_Z6]
 #: Cross-22_Z22
-#* KeyError: Cross-22_Z22
-#* File "AssemblyModifyEdit.py", line 1223, in <module>
+#: Cross-1_Z1
+#: Cross-37_Z37
+#: Cross-43_Z43
+#: Cross-6_Z6
+#: Cross-21_Z21
+#: Cross-23_Z23
+#: Cross-18_Z18
+#: Cross-2_Z2
+#: Cross-24_Z24
+#: Cross-28_Z28
+#: Cross-11_Z11
+#: Cross-35_Z35
+#: Cross-3_Z3
+#: Cross-20_Z20
+#: [-0.005, 0.005, 0.0, 0.005, 0.005, 0.0]
+#* The boolean operation failed
+#* File "AssemblyModifyEdit.py", line 1225, in <module>
 #*     runAssembly()
-#* File "AssemblyModifyEdit.py", line 1109, in runAssembly
-#*     instanceNames = 
-#* instanceAssembly(modelData,newSubstructures=newSubstructures)
-#* File "AssemblyModifyEdit.py", line 293, in instanceAssembly
-#*     p = mdb.models[modelName].parts[partName]
+#* File "AssemblyModifyEdit.py", line 1117, in runAssembly
+#*     BoundarySets(modelData,instanceNames=instanceNames)
+#* File "AssemblyModifyEdit.py", line 442, in BoundarySets
+#*     a.sets[topName], a.sets[leftName], ))
+cliCommand("""a = mdb.models['Model-1'].rootAssembly""")
+cliCommand("""n1=a.instances['Cross-22_Z22_1'].nodes""")
+cliCommand("""nodesTop=[]""")
+cliCommand("""nodesTop.append(n1.getByBoundingBox(-0.005,0.005,0.0,0.005,0.005,0.0))""")
+cliCommand("""print(nodesTop)""")
+#: [mdb.models['Model-1'].rootAssembly.instances['Cross-22_Z22_1'].nodes[0:0]]
+a = mdb.models['Model-1'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+session.viewports['Viewport: 1'].assemblyDisplay.setValues(
+    optimizationTasks=OFF, geometricRestrictions=OFF, stopConditions=OFF)
+#: Coordinates of node 36 :-5.E-03,-5.E-03,0.
+#: Coordinates of node 36 :5.E-03,5.E-03,0.
+session.viewports['Viewport: 1'].view.setValues(nearPlane=0.116455, 
+    farPlane=0.116783, width=0.000357707, height=0.00035463, 
+    viewOffsetX=-0.015061, viewOffsetY=-0.00502876)
+cliCommand("""nodesTop.append(n1.getByBoundingBox(-0.005,0.005,-0.001,0.005,0.005,0.001))""")
+cliCommand("""print(nodesTop)""")
+#: [mdb.models['Model-1'].rootAssembly.instances['Cross-22_Z22_1'].nodes[0:0], mdb.models['Model-1'].rootAssembly.instances['Cross-22_Z22_1'].nodes[0:0]]
+cliCommand("""print(n1[0])""")
+#: ({'coordinates': (-0.00313431466929615, 0.0024272077716887, 0.0), 'instanceName': 'Cross-22_Z22_1', 'label': 1})
+cliCommand("""print(n1[1])""")
+#: ({'coordinates': (-0.0024272077716887, 0.00313431466929615, 0.0), 'instanceName': 'Cross-22_Z22_1', 'label': 2})
