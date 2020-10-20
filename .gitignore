@@ -133,6 +133,4 @@ dmypy.json
 *.com
 *.msg
 *.SMABulk
-*.sim
-*.sup
 

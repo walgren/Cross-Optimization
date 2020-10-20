@@ -1,0 +1,18 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].PartFromSubstructure(name='Cross-1_Z1', odbFile=
+    'C:\\temp\\Walgren\\Cross-Optimization/Cross-1.odb', substructureFile=
+    'C:\\temp\\Walgren\\Cross-Optimization/Cross-1_Z1.sim')
+#* Required substructure file Cross-1_Z1.sim does not exist.
